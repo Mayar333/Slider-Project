@@ -1,0 +1,47 @@
+
+.item{
+    position: relative;
+}
+.item-caption{
+    background-color: azure;
+    width: 80%;
+    position: absolute;
+    bottom: 15px;
+    left: 10%;
+    text-align: center;
+    padding: 5px;
+}
+.layer{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.little-box{
+    width: 50%;
+    height: 500px;
+
+background-image: url(../images/portfolio-1.jpg);
+background-size:  100% 100%;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+font-size: 20px;
+}
+.close-icon{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+i {
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+}
